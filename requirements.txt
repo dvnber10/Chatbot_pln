@@ -1,5 +1,14 @@
-spacy
-nltk
-transformers
-uvicorn
 fastapi
+uvicorn
+
+# NLP
+nltk
+spacy
+
+# Transformers y modelo generativo
+transformers==4.40.0
+torch==2.3.0+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+# Utilidades varias
+numpy
+regex
